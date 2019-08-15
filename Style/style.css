@@ -1,14 +1,11 @@
-.ul-li-active {
-    border-bottom: 5px solid #fd7014;
-}
-
 ul li {
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
 .text-active {
-    color: white;
+    color: #fd7014;
+    font-weight: bold;
     padding-right: .5rem;
     padding-left: .5rem;
     display: block;
@@ -16,13 +13,8 @@ ul li {
 }
 
 .text-active:hover {
-    color: white;
+    color: #fd7014;
     text-decoration: none;
-}
-
-#nav1 {
-    padding-top: 0;
-    padding-bottom: 0;
 }
 
 .nav-l {
@@ -34,7 +26,7 @@ ul li {
 }
 
 .nav-l:hover {
-    color: #fd7014;
+    color: white;
     text-decoration: none;
 }
 
@@ -55,4 +47,9 @@ ul li {
 
 .center {
     text-align: center;
+}
+
+.shadow-sm {
+    -webkit-box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important
 }
